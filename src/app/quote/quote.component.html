@@ -1,6 +1,9 @@
 <h1>My Quotes</h1>
 <hr>
 <div class="container">
+  <div class="row">
+    <app-quote-form></app-quote-form>
+  </div>
 <ul>
   <div *ngFor='let quote of quotes;let i= index'>
   <li>{{quote.name}}</li>
