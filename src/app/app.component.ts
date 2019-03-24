@@ -18,5 +18,5 @@ quotes = [
   new Quote(9, "Most folks are about as happy as they make up their minds to be.", "Abraham Lincoln"),
   new Quote(10, "You don't get harmony when everybody sings the same note", "Doug Floyd")
 ]
-constructor(){}
+
 }
