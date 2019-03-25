@@ -9,8 +9,6 @@
   <li appHighlight id="display">{{quote.name}}</li>
   <button id="togglebtn" (click)='toggleDetails(i)'>Author</button>
   <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
-  <button><img id="upvote"  src="assets/icons8-cool-filled-50.png"></button>
-  <button><img id="downvote" src="assets/icons8-bored-50.png" ></button>
-</div>
+ </div>
 </ul>
 </div>
