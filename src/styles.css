@@ -12,8 +12,9 @@
     }
     .display{
         font-size: 20px;
-        font-family: Great vibes;
         font-size: 2em;
+        font-weight: 500;
+        font-style: oblique;
     } 
     h1{
         text-align: center;
@@ -41,14 +42,13 @@
         width: 25pt;
     }
     .votebut{
-        border-radius: 16%;
-        margin: 4px;
-        background-color:#f8bbd0;
+        background-color:#ffb300;
+        margin: 10px;
     }
     #addquote{
         width: 100px;
         height: 40px;
-        border-radius: 10%;
+        border-radius: 20%;
         background-color: #ffb300;
     }
     #addquote:hover{
