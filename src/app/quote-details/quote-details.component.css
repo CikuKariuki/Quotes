@@ -5,3 +5,6 @@
 #delete:hover{
     width: 100px;
 }
+#upvote,#downvote{
+    width: 25pt;
+}
