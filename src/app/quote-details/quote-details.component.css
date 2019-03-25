@@ -8,3 +8,8 @@
 #upvote,#downvote{
     width: 25pt;
 }
+.votebut{
+    border-radius: 16%;
+    margin: 4px;
+    background-color:#f8bbd0;
+}

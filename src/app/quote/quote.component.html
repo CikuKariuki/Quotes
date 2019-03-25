@@ -1,11 +1,14 @@
 <div class="card">
-<h1><img src="assets/icons8-guru-filled-50.png"> Wise Quotes<img src="assets/icons8-guru-filled-50.png"></h1>
+<h1 ><img src="assets/icons8-guru-filled-50.png"> Wise Quotes<img src="assets/icons8-guru-filled-50.png"></h1>
 </div>
 <hr>
 <div class="container">
   <div class="row">
+    <div class="col-md-5">
     <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
   </div>
+
+<div class="col-md-7">
 <ul>
   <div *ngFor='let quote of quotes;let i= index'>
   <li appHighlight class="display">{{quote.name}}</li>
@@ -13,4 +16,6 @@
   <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='deleteQuote($event,i)' (isLike)='likeVote($event,i)' (isDislike)='dislikeVote($event,i)'></app-quote-details>
  </div>
 </ul>
+</div>
+</div>
 </div>

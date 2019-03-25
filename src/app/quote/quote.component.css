@@ -20,7 +20,11 @@ h1{
     font-family: cursive;
     font-size: 70px;
     font-style: normal;
+
 }
 .card{
     height: 150px;
-}
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/31/22/22/paper-2027692__340.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 

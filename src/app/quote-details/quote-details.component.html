@@ -2,7 +2,7 @@
 <p>{{quote.submitter}}</p>
 <p>Published on {{quote.completeDate|date}}</p>
 <p>This quote was published {{quote.completeDate|dateCount}} day(s) ago.</p>
-<button (click)='likeQuote(true)'><img id="upvote"  src="assets/icons8-cool-filled-50.png">{{quote.upVote}}</button>
-<button (click)='dislikeQuote(true)'><img id="downvote" src="assets/icons8-bored-50.png" >{{quote.downVote}}</button><br>
+<button class="votebut" (click)='likeQuote(true)'><img id="upvote"  src="assets/icons8-cool-filled-50.png">{{quote.upVote}}</button>
+<button class="votebut" (click)='dislikeQuote(true)'><img id="downvote" src="assets/icons8-bored-50.png" >{{quote.downVote}}</button><br>
 <button  class="btn-danger" (click)='quoteDelete(true)' id="delete">Delete</button>
 
