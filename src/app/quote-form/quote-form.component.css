@@ -14,9 +14,9 @@
 #author:hover{
     box-shadow: 5px 5px 18px #993154;
 }
-/* #submitter{ */
-    /* box-shadow: 5px 5px 18px #993154; */
-/* } */
+#submitter:hover{
+    box-shadow: 5px 5px 18px #993154;
+}
 label{
     font-size: 30px;
     font-family: 'Bellucia',cursive;

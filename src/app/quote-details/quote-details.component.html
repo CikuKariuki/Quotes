@@ -1,6 +1,6 @@
 <p>{{quote.author}}</p>
 <p>{{quote.submitter}}</p>
-<button (click)='like(true)'><img id="upvote"  src="assets/icons8-cool-filled-50.png">{{quote.upVote}}</button>
-<button (click)='dislike(true)'><img id="downvote" src="assets/icons8-bored-50.png" >{{quote.downVote}}</button>
+<button (click)='likeQuote(true)'><img id="upvote"  src="assets/icons8-cool-filled-50.png">{{quote.upVote}}</button>
+<button (click)='dislikeQuote(true)'><img id="downvote" src="assets/icons8-bored-50.png" >{{quote.downVote}}</button>
 <button  class="btn-danger" (click)='quoteDelete(true)' id="delete">Delete</button>
 

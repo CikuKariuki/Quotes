@@ -1,4 +1,6 @@
-<h1>My Quotes</h1>
+<div class="card">
+<h1><img src="assets/icons8-guru-filled-50.png"> Wise Quotes<img src="assets/icons8-guru-filled-50.png"></h1>
+</div>
 <hr>
 <div class="container">
   <div class="row">
@@ -8,7 +10,7 @@
   <div *ngFor='let quote of quotes;let i= index'>
   <li appHighlight id="display">{{quote.name}}</li>
   <button id="togglebtn" (click)='toggleDetails(i)'>Author</button>
-  <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+  <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='deleteQuote($event,i)' (isLike)='likeVote($event,i)' (isDislike)='dislikeVote($event,i)'></app-quote-details>
  </div>
 </ul>
 </div>
