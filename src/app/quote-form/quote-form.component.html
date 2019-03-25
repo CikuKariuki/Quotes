@@ -21,6 +21,13 @@
         Author: {{newQuote.author}}
       </div>
 
+      <div class="form-group">
+        
+       <label for="submitter">Submitted by</label>
+       <input type="text" class="form-control" id="submitter"[(ngModel)]=newQuote.submitter name="submitter" required #submitter="ngModel">
+       Submitted by: {{newQuote.submitter}}
+       </div>
+
       <button id="addquote">Add Quote</button>
     </form>
   </div> 
