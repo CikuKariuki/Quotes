@@ -27,7 +27,7 @@
         opacity:0.8;
     }
     body{
-        background-image: url(http://www.4usky.com/data/out/69/164613668-paper-wallpapers.jpg);
+        background-image: url(assets/background.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     } 
@@ -65,6 +65,10 @@
     }
     #submitter:hover{
         box-shadow: 5px 5px 18px 10px #131212;
+    }
+    #complete:hover{
+        box-shadow: 5px 5px 18px 10px #131212;
+
     }
     label{
         font-size: 70px;
