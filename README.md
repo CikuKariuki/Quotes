@@ -6,7 +6,7 @@ This is a website that has quotes of wisdom. Quotes can be added, upvoted if fou
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
-##Requirements
+## Requirements
 
 The website can be viewed on any browser.
 to view the code; visual studio or atom.
