@@ -12,8 +12,9 @@
 <ul>
   <div *ngFor='let quote of quotes;let i= index'>
   <li appHighlight class="display" >{{quote.name}}</li> 
+  <!-- <p>*ngIf="quote.upVote"</p> -->
   <!-- *ngIf=" highestUpvote()===quote.upVote && quote.upVote>0" -->
-  <!-- <p *ngIf="highestUpvote()!==quote.upVote || quote.upVote===0">{{quote.name}}</p> -->
+  <!-- <p *ngIf="highestUpvote()!==quote.upVote || quote.upVote===0">{{quote.name}}</p>  -->
 
 
   <button id="togglebtn" (click)='toggleDetails(i)'>Details</button>
