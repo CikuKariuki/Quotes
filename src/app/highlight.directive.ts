@@ -1,20 +1,15 @@
-import { Directive, ElementRef } from '@angular/core';
+import { Directive,ElementRef, HostListener} from '@angular/core';
 
 @Directive({
   selector: '[appHighlight]'
 })
 export class HighlightDirective {
 
-  constructor(private elem:ElementRef) {}
-  
-  //@HostListener("click") onUpvote(){
-  //   this.textDeco("line-through")
-  // }Put functions for highlighting the quote with the most upvotes.
+  constructor(private elem:ElementRef){ }
 
-  
-
+    @HostListener('click') highestUpvote(){
+      this.backgroundColor("#ffe082")
+    }
     private backgroundColor(action:string){
-    this.elem.nativeElement.style.backgroundColor='#f8bbd0';
-   }
-
+    this.elem.nativeElement.style.backgroundColor=action;  }
 }

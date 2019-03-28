@@ -41,8 +41,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ##BDD
  
- |BEHAVIOR: The program should be able to handle|INPUT: When it receives| OUTPUT: It should return
- | Adding Quotes| The quote, author and person submitting it. | Addtion of the quote to the existing list of quotes. It shows details of the quote such as the day it was added and how many days have passed since it was first published.
+ |BEHAVIOR| INPUT | OUTPUT|
+ |:-----------------|:----------|: ------------|
+ | Receives quote  | Typing in the quote in textbox | Registering of quote|
+ | Receives author | Typing author of quote | Registering author of quote|
+ | Receives submitter| Typing the person submitting the quote | Registering the person submitting the quote|
+ | Receives date | Choosing a date in the date input box/ leaving the box blank | Registering the date/ output today's date|
   
 ## Known Bugs
 

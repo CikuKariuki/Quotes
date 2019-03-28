@@ -34,7 +34,7 @@ export class QuoteComponent implements OnInit {
     let quoteLength=this.quotes.length;
     quote.id=quoteLength+1;
     this.quotes.push(quote)
-  }
+  }  
   likeVote(isLike,index){
     if(isLike){
       this.quotes[index].upVote+=1;
@@ -45,6 +45,19 @@ export class QuoteComponent implements OnInit {
       this.quotes[index].downVote+=1;
     }
   }
+  // preNum:number
+  // lastNum:number
+  // counter:number
+  // highestUpvote(){
+  //   this.preNum=0
+  //   this.lastNum=0
+
+  //   for (this.counter=0; this.counter < this.quotes.length;this.counter++){
+  //     this.lastNum=this.quotes[this.counter].upVote;
+  //     if(this.lastNum>this.preNum){this.preNum=this.lastNum}
+  //     return this.preNum
+  //   }
+  // }
   constructor() { }
 
   ngOnInit() {
