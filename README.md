@@ -41,12 +41,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## BDD
  
- |BEHAVIOR| INPUT | OUTPUT|
- |:-----------------|:----------|: ------------|
+ |BEHAVIOR | INPUT | OUTPUT|
+ | :----------------- | :----------| : ------------ |
  | Receives quote  | Typing in the quote in textbox | Registering of quote|
  | Receives author | Typing author of quote | Registering author of quote|
  | Receives submitter| Typing the person submitting the quote | Registering the person submitting the quote|
  | Receives date | Choosing a date in the date input box/ leaving the box blank | Registering the date/ output today's date|
+ 
+ | :------------- | :------------- | :--------------- |
+| Rolling dice     | dice number:2,3,4,5,6    |records number got and adds to previous output.|
+| Rolling dice.| dice number:1  |Erases all recorded output and passes turn to second player.|
+| Addition to 100 points| Points that add up to 100|  Player x has won!|
   
 ## Known Bugs
 
