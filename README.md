@@ -42,7 +42,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## BDD
  
  |BEHAVIOR | INPUT | OUTPUT|
+ 
  | :----------------- | :----------| : ------------ |
+ 
  | Receives quote  | Typing in the quote in textbox | Registering of quote|
  | Receives author | Typing author of quote | Registering author of quote|
  | Receives submitter| Typing the person submitting the quote | Registering the person submitting the quote|
